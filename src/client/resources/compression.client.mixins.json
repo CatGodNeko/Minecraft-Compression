@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "catgodneko.compression.client.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"CompressionClientMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
