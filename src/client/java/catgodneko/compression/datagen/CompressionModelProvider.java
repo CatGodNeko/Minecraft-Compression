@@ -26,10 +26,55 @@ public class CompressionModelProvider extends FabricModelProvider {
             CompressionItems.SUSPICIOUS_SUBSTANCE,
             ModelTemplates.FLAT_ITEM
         );
+
+        // Swords
+        itemModelGenerator.generateFlatItem(CompressionItems.COMPRESSED_WOODEN_SWORD, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerator.generateFlatItem(CompressionItems.COMPRESSED_STONE_SWORD, ModelTemplates.FLAT_HANDHELD_ITEM);
+		itemModelGenerator.generateFlatItem(CompressionItems.COMPRESSED_COPPER_SWORD, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerator.generateFlatItem(CompressionItems.COMPRESSED_IRON_SWORD, ModelTemplates.FLAT_HANDHELD_ITEM);
+		itemModelGenerator.generateFlatItem(CompressionItems.COMPRESSED_GOLDEN_SWORD, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerator.generateFlatItem(CompressionItems.COMPRESSED_DIAMOND_SWORD, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerator.generateFlatItem(CompressionItems.COMPRESSED_NETHERITE_SWORD, ModelTemplates.FLAT_HANDHELD_ITEM);
+        
+        // Pickaxes
+        itemModelGenerator.generateFlatItem(CompressionItems.COMPRESSED_WOODEN_PICKAXE, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerator.generateFlatItem(CompressionItems.COMPRESSED_STONE_PICKAXE, ModelTemplates.FLAT_HANDHELD_ITEM);
+		itemModelGenerator.generateFlatItem(CompressionItems.COMPRESSED_COPPER_PICKAXE, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerator.generateFlatItem(CompressionItems.COMPRESSED_IRON_PICKAXE, ModelTemplates.FLAT_HANDHELD_ITEM);
+		itemModelGenerator.generateFlatItem(CompressionItems.COMPRESSED_GOLDEN_PICKAXE, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerator.generateFlatItem(CompressionItems.COMPRESSED_DIAMOND_PICKAXE, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerator.generateFlatItem(CompressionItems.COMPRESSED_NETHERITE_PICKAXE, ModelTemplates.FLAT_HANDHELD_ITEM);
+        
+        // Axes
+        itemModelGenerator.generateFlatItem(CompressionItems.COMPRESSED_WOODEN_AXE, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerator.generateFlatItem(CompressionItems.COMPRESSED_STONE_AXE, ModelTemplates.FLAT_HANDHELD_ITEM);
+		itemModelGenerator.generateFlatItem(CompressionItems.COMPRESSED_COPPER_AXE, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerator.generateFlatItem(CompressionItems.COMPRESSED_IRON_AXE, ModelTemplates.FLAT_HANDHELD_ITEM);
+		itemModelGenerator.generateFlatItem(CompressionItems.COMPRESSED_GOLDEN_AXE, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerator.generateFlatItem(CompressionItems.COMPRESSED_DIAMOND_AXE, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerator.generateFlatItem(CompressionItems.COMPRESSED_NETHERITE_AXE, ModelTemplates.FLAT_HANDHELD_ITEM);
+
+        // Shovels
+        itemModelGenerator.generateFlatItem(CompressionItems.COMPRESSED_WOODEN_SHOVEL, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerator.generateFlatItem(CompressionItems.COMPRESSED_STONE_SHOVEL, ModelTemplates.FLAT_HANDHELD_ITEM);
+		itemModelGenerator.generateFlatItem(CompressionItems.COMPRESSED_COPPER_SHOVEL, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerator.generateFlatItem(CompressionItems.COMPRESSED_IRON_SHOVEL, ModelTemplates.FLAT_HANDHELD_ITEM);
+		itemModelGenerator.generateFlatItem(CompressionItems.COMPRESSED_GOLDEN_SHOVEL, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerator.generateFlatItem(CompressionItems.COMPRESSED_DIAMOND_SHOVEL, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerator.generateFlatItem(CompressionItems.COMPRESSED_NETHERITE_SHOVEL, ModelTemplates.FLAT_HANDHELD_ITEM);
+        
+        // Hoes
+        itemModelGenerator.generateFlatItem(CompressionItems.COMPRESSED_WOODEN_HOE, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerator.generateFlatItem(CompressionItems.COMPRESSED_STONE_HOE, ModelTemplates.FLAT_HANDHELD_ITEM);
+		itemModelGenerator.generateFlatItem(CompressionItems.COMPRESSED_COPPER_HOE, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerator.generateFlatItem(CompressionItems.COMPRESSED_IRON_HOE, ModelTemplates.FLAT_HANDHELD_ITEM);
+		itemModelGenerator.generateFlatItem(CompressionItems.COMPRESSED_GOLDEN_HOE, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerator.generateFlatItem(CompressionItems.COMPRESSED_DIAMOND_HOE, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerator.generateFlatItem(CompressionItems.COMPRESSED_NETHERITE_HOE, ModelTemplates.FLAT_HANDHELD_ITEM);
     }
 
     @Override
     public String getName() {
-        return "ExampleModModelProvider";
+        return "CompressionModelProvider";
     }
 }
